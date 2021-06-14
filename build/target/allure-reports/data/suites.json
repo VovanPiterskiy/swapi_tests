@@ -1,0 +1,164 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Gradle suite",
+    "children" : [ {
+      "name" : "Gradle test",
+      "children" : [ {
+        "name" : "SearchTests",
+        "children" : [ {
+          "name" : "Search planet negative",
+          "uid" : "528af9dcd7f61b1c",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697593717,
+            "stop" : 1623697596292,
+            "duration" : 2575
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "1" ]
+        }, {
+          "name" : "Search planet negative",
+          "uid" : "dd85f813f65296a3",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697596315,
+            "stop" : 1623697596556,
+            "duration" : 241
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "*" ]
+        }, {
+          "name" : "Search planet negative",
+          "uid" : "22b587e5e54cbc12",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697596558,
+            "stop" : 1623697596862,
+            "duration" : 304
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Tatoo" ]
+        }, {
+          "name" : "Search planet negative",
+          "uid" : "4e7d38e1ec14bb74",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697596864,
+            "stop" : 1623697597174,
+            "duration" : 310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "T" ]
+        }, {
+          "name" : "Search planet positive",
+          "uid" : "8f368c8eb68fd1b8",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697597179,
+            "stop" : 1623697597421,
+            "duration" : 242
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Alderaan" ]
+        }, {
+          "name" : "Search planet positive",
+          "uid" : "d52d07bd819bf8c0",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697597422,
+            "stop" : 1623697597659,
+            "duration" : 237
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "alderaan" ]
+        }, {
+          "name" : "Search planet positive",
+          "uid" : "781edebd71762e52",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697597661,
+            "stop" : 1623697597895,
+            "duration" : 234
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "Alder" ]
+        }, {
+          "name" : "Search planet positive",
+          "uid" : "2961a009d51b7989",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697597897,
+            "stop" : 1623697598191,
+            "duration" : 294
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "A" ]
+        }, {
+          "name" : "Search planet positive",
+          "uid" : "5506b9fe43a03754",
+          "parentUid" : "2024fafc8b2ee60368e838247579b97d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697598193,
+            "stop" : 1623697598461,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "" ]
+        } ],
+        "uid" : "2024fafc8b2ee60368e838247579b97d"
+      }, {
+        "name" : "SmokeTests",
+        "children" : [ {
+          "name" : "Get and check planet data",
+          "uid" : "4e00cf74532bf232",
+          "parentUid" : "e967eea34e4a105f48c0acd2fa65eef7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697598463,
+            "stop" : 1623697599004,
+            "duration" : 541
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Get planet with wrong id",
+          "uid" : "42d8ccbf774088e8",
+          "parentUid" : "e967eea34e4a105f48c0acd2fa65eef7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623697599006,
+            "stop" : 1623697599489,
+            "duration" : 483
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e967eea34e4a105f48c0acd2fa65eef7"
+      } ],
+      "uid" : "6edf7b6d6ec097775c478f55491c2a49"
+    } ],
+    "uid" : "350742de9190af4e6a560acc7ec0396c"
+  } ]
+}

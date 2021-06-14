@@ -1,0 +1,141 @@
+{
+  "uid" : "dd85f813f65296a3",
+  "name" : "Search planet negative",
+  "fullName" : "SearchTests.searchPlanetNegative",
+  "historyId" : "ccbb11b92bb0aba8eda5859c000915c3",
+  "time" : {
+    "start" : 1623697596315,
+    "stop" : 1623697596556,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get planets list",
+      "time" : {
+        "start" : 1623697596316,
+        "stop" : 1623697596555,
+        "duration" : 239
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Search planets with name = *",
+        "time" : {
+          "start" : 1623697596316,
+          "stop" : 1623697596546,
+          "duration" : 230
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c189d8548f5f4541",
+          "name" : "Request",
+          "source" : "c189d8548f5f4541.html",
+          "type" : "text/html",
+          "size" : 465
+        }, {
+          "uid" : "f8598d35f3d3f644",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "f8598d35f3d3f644.html",
+          "type" : "text/html",
+          "size" : 770
+        } ],
+        "parameters" : [ {
+          "name" : "searchQuery",
+          "value" : "*"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "searchQuery",
+        "value" : "*"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "Read planet data from json file",
+      "time" : {
+        "start" : 1623697596555,
+        "stop" : 1623697596556,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dataName",
+        "value" : "alderaanData"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SearchTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SearchTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchPlanetNegative"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SearchTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V9TGILI"
+  }, {
+    "name" : "thread",
+    "value" : "1516184@DESKTOP-V9TGILI.Test worker(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "*"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd85f813f65296a3.json",
+  "parameterValues" : [ "*" ]
+}

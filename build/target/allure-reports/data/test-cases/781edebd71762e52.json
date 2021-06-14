@@ -1,0 +1,141 @@
+{
+  "uid" : "781edebd71762e52",
+  "name" : "Search planet positive",
+  "fullName" : "SearchTests.searchPlanetPositive",
+  "historyId" : "ea616e882cc338e965319f56e57e415e",
+  "time" : {
+    "start" : 1623697597661,
+    "stop" : 1623697597895,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get planets list",
+      "time" : {
+        "start" : 1623697597661,
+        "stop" : 1623697597895,
+        "duration" : 234
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Search planets with name = Alder",
+        "time" : {
+          "start" : 1623697597661,
+          "stop" : 1623697597884,
+          "duration" : 223
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a890a70d773834ea",
+          "name" : "Request",
+          "source" : "a890a70d773834ea.html",
+          "type" : "text/html",
+          "size" : 473
+        }, {
+          "uid" : "12d4a05f1001edfe",
+          "name" : "HTTP/1.1 200 OK",
+          "source" : "12d4a05f1001edfe.html",
+          "type" : "text/html",
+          "size" : 1914
+        } ],
+        "parameters" : [ {
+          "name" : "searchQuery",
+          "value" : "Alder"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "searchQuery",
+        "value" : "Alder"
+      } ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "Read planet data from json file",
+      "time" : {
+        "start" : 1623697597895,
+        "stop" : 1623697597895,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dataName",
+        "value" : "alderaanData"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SearchTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SearchTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "searchPlanetPositive"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SearchTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V9TGILI"
+  }, {
+    "name" : "thread",
+    "value" : "1516184@DESKTOP-V9TGILI.Test worker(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "Alder"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "781edebd71762e52.json",
+  "parameterValues" : [ "Alder" ]
+}

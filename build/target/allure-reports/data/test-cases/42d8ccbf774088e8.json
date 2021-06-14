@@ -1,0 +1,102 @@
+{
+  "uid" : "42d8ccbf774088e8",
+  "name" : "Get planet with wrong id",
+  "fullName" : "SmokeTests.zeroPlanetSmokeTest",
+  "historyId" : "988a8da0e7ce149f1c9c9c193dd2c080",
+  "time" : {
+    "start" : 1623697599006,
+    "stop" : 1623697599489,
+    "duration" : 483
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Search planet with id = 0",
+      "time" : {
+        "start" : 1623697599006,
+        "stop" : 1623697599488,
+        "duration" : 482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a6e55ae5d3a5a961",
+        "name" : "Request",
+        "source" : "a6e55ae5d3a5a961.html",
+        "type" : "text/html",
+        "size" : 449
+      }, {
+        "uid" : "318489ee50c975c3",
+        "name" : "HTTP/1.1 404 NOT FOUND",
+        "source" : "318489ee50c975c3.html",
+        "type" : "text/html",
+        "size" : 625
+      } ],
+      "parameters" : [ {
+        "name" : "id",
+        "value" : "0"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SmokeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "SmokeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "zeroPlanetSmokeTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Gradle suite"
+  }, {
+    "name" : "suite",
+    "value" : "Gradle test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SmokeTests"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V9TGILI"
+  }, {
+    "name" : "thread",
+    "value" : "1516184@DESKTOP-V9TGILI.Test worker(20)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "42d8ccbf774088e8.json",
+  "parameterValues" : [ ]
+}

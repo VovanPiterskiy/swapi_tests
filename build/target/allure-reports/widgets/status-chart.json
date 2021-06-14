@@ -1,0 +1,111 @@
+[ {
+  "uid" : "42d8ccbf774088e8",
+  "name" : "Get planet with wrong id",
+  "time" : {
+    "start" : 1623697599006,
+    "stop" : 1623697599489,
+    "duration" : 483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f368c8eb68fd1b8",
+  "name" : "Search planet positive",
+  "time" : {
+    "start" : 1623697597179,
+    "stop" : 1623697597421,
+    "duration" : 242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2961a009d51b7989",
+  "name" : "Search planet positive",
+  "time" : {
+    "start" : 1623697597897,
+    "stop" : 1623697598191,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "781edebd71762e52",
+  "name" : "Search planet positive",
+  "time" : {
+    "start" : 1623697597661,
+    "stop" : 1623697597895,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d52d07bd819bf8c0",
+  "name" : "Search planet positive",
+  "time" : {
+    "start" : 1623697597422,
+    "stop" : 1623697597659,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd85f813f65296a3",
+  "name" : "Search planet negative",
+  "time" : {
+    "start" : 1623697596315,
+    "stop" : 1623697596556,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5506b9fe43a03754",
+  "name" : "Search planet positive",
+  "time" : {
+    "start" : 1623697598193,
+    "stop" : 1623697598461,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22b587e5e54cbc12",
+  "name" : "Search planet negative",
+  "time" : {
+    "start" : 1623697596558,
+    "stop" : 1623697596862,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e7d38e1ec14bb74",
+  "name" : "Search planet negative",
+  "time" : {
+    "start" : 1623697596864,
+    "stop" : 1623697597174,
+    "duration" : 310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e00cf74532bf232",
+  "name" : "Get and check planet data",
+  "time" : {
+    "start" : 1623697598463,
+    "stop" : 1623697599004,
+    "duration" : 541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "528af9dcd7f61b1c",
+  "name" : "Search planet negative",
+  "time" : {
+    "start" : 1623697593717,
+    "stop" : 1623697596292,
+    "duration" : 2575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
